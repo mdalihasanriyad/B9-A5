@@ -59,7 +59,7 @@
                 <div class="hero-overlay bg-opacity-20"></div>
                 <div class="hero-content text-center text-neutral-content">
                     <div class="max-w-md">
-                        <h1 class="mb-5 text-4xl font-bold text-white">End-to-End Travel with <br> <span
+                        <h1 class="mb-5 text-4xl font-bold text-white">End-to-End Travel with  <span
                                 class="text-green-600">MR Paribahan</span></h1>
                         <p class="mb-5">Due to Special Reserve service, Reserve bus ticket fare might be higher than
                             regular, Customers are requested to check fare before purchase.</p>
@@ -72,8 +72,8 @@
         <div class="container mx-auto flex gap-14 items-center justify-center -m-8 ">
             <div
                 class="bg-white flex text-center w-[240px] border-b-2 rounded-3xl border-green-600 rounded-b-3xl p-6 gap-1 items-center justify-center">
-                <div class=""></div>
-                <i class="fa-solid fa-users-line text-xl text-green-600"></i>
+                <!-- <i class="fa-solid fa-users-line text-xl text-green-600"></i> -->
+                <img src="./images/people.png" alt="">
                 <div class="">
                     <h1 class="text-left text-2xl font-bold">500K+</h1>
                     <p lass="text-left">Registered users</p>
@@ -81,8 +81,8 @@
             </div>
             <div
                 class="bg-white flex text-center w-[240px] border-b-2 rounded-3xl border-green-600 rounded-b-3xl p-6 gap-1 items-center justify-center">
-                <div class=""></div>
-                <i class="fa-solid fa-ticket text-2xl text-green-600"></i>
+                
+                <img src="./images/ticket-cupon.png" alt="">
                 <div class="">
                     <h1 class="text-left text-2xl font-bold">1.7 lacks</h1>
                     <p lass="text-left">Tickets sold</p>
@@ -91,8 +91,7 @@
 
             <div
                 class="bg-white flex text-center w-[240px] border-b-2 rounded-3xl border-green-600 rounded-b-3xl p-6 gap-1 items-center justify-center">
-                <div class=""></div>
-                <i class="fa-solid fa-van-shuttle text-xl text-green-600"></i>
+                <img src="./images/stoppage.png" alt="">
                 <div class="">
                     <h1 class="text-left text-xl font-bold">80K+</h1>
                     <p lass="text-left">Rental partners</p>
@@ -105,24 +104,26 @@
         <div class="container mx-auto py-16">
             <h1 class="text-center text-5xl font-semibold">Best offers for you</h1>
             <div class="flex gap-20 items-center justify-center py-10">
-                <div class="bg-[#FFBF0F] gap-20 flex p-20 rounded-2xl">
-                    <div class="">
-                        <h2 class="text-3xl font-bold">15% OFF</h2>
+                <div class="gap-20 bg-[#FFBF0F]  flex  rounded-2xl">
+                    <div class="p-8">
+                        <h2 class="text-3xl font-bold ">15% OFF</h2>
                         <p class="text-black">on your next purchase</p>
                         <p class="opacity-60">use by January 2024</p>
                     </div>
-                    <div class="">
+                    <img src="./images/cupon-devider.png" alt="">
+                    <div class="p-8">
                         <h2 class="text-2xl font-semibold">NEW15</h2>
                         <p class="opacity-60">Coupon Code</p>
                     </div>
                 </div>
-                <div class="bg-[#F78C9C] gap-20 flex p-20 rounded-2xl">
-                    <div class="">
+                <div class="bg-[#F78C9C] gap-20 flex  rounded-2xl">
+                    <div class="p-8">
                         <h2 class="text-3xl font-bold">20% OFF</h2>
                         <p class="text-black">on your next purchase</p>
                         <p class="opacity-60">use by January 2024</p>
                     </div>
-                    <div class="">
+                    <img src="./images/cupon-devider.png" alt="">
+                    <div class="p-8">
                         <h2 class="text-2xl font-semibold">Couple 20</h2>
                         <p class="opacity-60">Coupon Code</p>
                     </div>
@@ -168,7 +169,8 @@
                     </div>
                 </div>
                 <div class="items-center justify-center pr-32 pt-40">
-                    <i class="fa-solid fa-bangladeshi-taka-sign  text-white rounded-full p-2 text-3xl"></i>
+                    <!-- <i class="fa-solid fa-bangladeshi-taka-sign bg-green-600  text-white rounded-full p-2 text-3xl"></i> -->
+                    <img src="./images/fare.png" alt="">
                     <h3 class="text-3xl font-semibold">550 Taka</h3>
                     <p>Per Seat</p>
                 </div>
@@ -257,19 +259,64 @@
                     <div class="p-4">
                         <label class="input input-bordered flex items-center">
                             <input type="text" class="grow" placeholder="Have any copupon?" />
-                            <button class="text-sm rounded-xl font-semibold px-4 py-2 bg-green-600 text-white">Apply</button>
+                            <button class="btn text-sm rounded-xl font-semibold px-4 py-2 bg-green-600 text-white">Apply</button>
                           </label>
                     </div>
                     <div class="flex justify-between p-4">
                         <h4>Grand Total</h4>
                         <h4>BDT 1100</h4>
                     </div>
+                    <div class="">
+                        <h3 class="text-xl">Passenger Name:</h3> 
+                        <input type="text" required class="w-full p-4 rounded-xl mb-2" placeholder="Enter your name"> 
+                        <h3 class="text-xl">Phone Number:</h3> 
+                        <input type="number" required class="w-full p-4 rounded-xl mb-3" placeholder="Enter your phone number">
+                        <h3 class="text-xl">Email Id:</h3> 
+                        <input type="email"  class="w-full p-4 rounded-xl mb-2"placeholder="Enter your email">
+                        <button class="btn w-full bg-green-600 text-white mt-3">Next</button>
+                        <div class="flex w-2/3 m-auto justify-between mt-4 opacity-60">
+                            <a href="#" class="underline">Terms and Conditions</a>
+                            <a href="#" class="underline">Cancellation Policy</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
+    <!-- footer -->
     <footer>
+        <div class="bg-[#030712] mt-20">
+            <div class=" text-white flex justify-between p-20">
+                <div class="">
+                    <h3 class="text-2xl font-bold">P-Ticket</h3>
+                    <p class="opacity-60 mt-4">P-Ticket is a digital platform to make your <br>  daily commuting better.</p>
+                </div>
+                <div class="">
+                    <h5 class="text-lg font-semibold">Download our app</h5>
+                    <div class="items-center flex justify-center mt-4">
+                        <div class="">
+                            <img src="./images/playstore.png" alt="">
+                        </div>
+                        <div class="">
+                            <span class="text-sm">Get on playstore</span>      
+                        <h4 class="text-xl">Goggle Play</h4>
+                        </div>
+                    </div>
 
+                </div>
+            </div>
+            <hr class="w-[1370px] m-auto divide-dashed">
+            <div class="text-white flex justify-between p-20">
+                <div class="opacity-60">
+                    <p>@all rights reserved, P-Ticket services limited.2024</p>
+                </div>
+                <div class="space-x-4">
+                    <a href="">Terms & condition</a>
+                    <a href="">Return & refund policy</a>
+                    <a href="">Privacy policy</a>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 
