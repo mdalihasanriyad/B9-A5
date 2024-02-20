@@ -56,11 +56,10 @@
         <div class="container mx-auto">
             <div class="hero h-[600px] bg-cover bg-no-repeat rounded-3xl"
                 style="background-image: url('./images/banner.png');">
-                <div class="hero-overlay bg-opacity-20"></div>
+                <div class=" bg-opacity-20"></div>
                 <div class="hero-content text-center text-neutral-content">
                     <div class="max-w-md">
-                        <h1 class="mb-5 text-4xl font-bold text-white">End-to-End Travel with  <span
-                                class="text-green-600">MR Paribahan</span></h1>
+                        <h1 class="mb-5 text-4xl font-bold text-white">End-to-End Travel with  <span class="text-green-600">MR Paribahan</span></h1>
                         <p class="mb-5">Due to Special Reserve service, Reserve bus ticket fare might be higher than
                             regular, Customers are requested to check fare before purchase.</p>
                         <button class="btn bg-green-600 border-none text-black">Buy Tickets</button>
@@ -70,18 +69,14 @@
         </div>
         <!-- user section -->
         <div class="container mx-auto flex gap-14 items-center justify-center -m-8 ">
-            <div
-                class="bg-white flex text-center w-[240px] border-b-2 rounded-3xl border-green-600 rounded-b-3xl p-6 gap-1 items-center justify-center">
-                <!-- <i class="fa-solid fa-users-line text-xl text-green-600"></i> -->
-                <img src="./images/people.png" alt="">
+            <div class="bg-white flex text-center w-[240px] border-b-2 rounded-3xl border-green-600 rounded-b-3xl p-5 gap-1 items-center justify-center">
+                <img src="./images/people.png"  alt="">
                 <div class="">
                     <h1 class="text-left text-2xl font-bold">500K+</h1>
                     <p lass="text-left">Registered users</p>
                 </div>
             </div>
-            <div
-                class="bg-white flex text-center w-[240px] border-b-2 rounded-3xl border-green-600 rounded-b-3xl p-6 gap-1 items-center justify-center">
-                
+            <div class="bg-white flex text-center w-[240px] border-b-2 rounded-3xl border-green-600 rounded-b-3xl p-5 gap-1 items-center justify-center">               
                 <img src="./images/ticket-cupon.png" alt="">
                 <div class="">
                     <h1 class="text-left text-2xl font-bold">1.7 lacks</h1>
@@ -89,8 +84,7 @@
                 </div>
             </div>
 
-            <div
-                class="bg-white flex text-center w-[240px] border-b-2 rounded-3xl border-green-600 rounded-b-3xl p-6 gap-1 items-center justify-center">
+            <div class="bg-white flex text-center w-[240px] border-b-2 rounded-3xl border-green-600 rounded-b-3xl p-5 gap-1 items-center justify-center">
                 <img src="./images/stoppage.png" alt="">
                 <div class="">
                     <h1 class="text-left text-xl font-bold">80K+</h1>
@@ -132,6 +126,7 @@
             <div class="justify-center text-center items-center"><button
                     class="btn text-green-600 bg-white border-green-600 border-dashed">See All Offers</button></div>
         </div>
+        <div class="border-2 text-green-600 "></div>
         <!-- paribahan section -->
         <div class="">
             <div class="text-center py-10">
@@ -148,7 +143,7 @@
                             <p class="opacity-60">Coach-009-WEB ! AC_Business</p>
                         </div>
                         <div class="">
-                            <h4 class="bg-green-200 p-2 rounded-lg"> <i class="fa-solid fa-couch text-green-600"></i> 40
+                            <h4 class="bg-green-200 p-2 rounded-lg"> <i class="fa-solid fa-couch text-green-600"></i> <span id="seat-count">40</span>
                                 seats left</h4>
                         </div>
                     </div>
@@ -189,26 +184,48 @@
                     <hr class="divide-dotted">
                 </div>
                 <!--seat  -->
-                <div class="flex py-10 justify-center items-center gap-8">
-
-                    
+                <div class="flex py-10 justify-center items-center gap-8">                   
                     <div class="space-y-4 ">
                         
                         <div class="mt-16">
-                            <button class="btn">A1</button>
-                            <button class="btn">A2</button>
+                            <button class="btn more">A1</button>
+                            <button class="btn more">A2</button>
                         </div>
                         <div class="">
-                            <button class="btn">B1</button>
-                            <button class="btn">B2</button>
+                            <button class="btn more">B1</button>
+                            <button class="btn more">B2</button>
                         </div>
                         <div class="">
-                            <button class="btn ">C1</button>
-                            <button class="btn ">C2</button>
+                            <button class="btn more">C1</button>
+                            <button class="btn more">C2</button>
                         </div>
                         <div class="">
-                            <button class="btn ">D1</button>
-                            <button class="btn ">D2</button>
+                            <button class="btn more">D1</button>
+                            <button class="btn more">D2</button>
+                        </div>
+                        <div class="">
+                            <button class="btn more">E1</button>
+                            <button class="btn more">E2</button>
+                        </div>
+                        <div class="">
+                            <button class="btn more">F1</button>
+                            <button class="btn more">F2</button>
+                        </div>
+                        <div class="">
+                            <button class="btn more">G1</button>
+                            <button class="btn more">G2</button>
+                        </div>
+                        <div class="">
+                            <button class="btn more">H1</button>
+                            <button class="btn more">H2</button>
+                        </div>
+                        <div class="">
+                            <button class="btn more">I1</button>
+                            <button class="btn more">I2</button>
+                        </div>
+                        <div class="">
+                            <button class="btn more">J1</button>
+                            <button class="btn more">J2</button>
                         </div>
                     </div>
                     <div class="space-y-4 ">
@@ -217,20 +234,44 @@
                         </div>
                         <div class="">
                             
-                            <button class="btn">A3</button>
-                            <button class="btn">A4</button>
+                            <button id="A3"  class="btn more">A3</button>
+                            <button id="A4"  class="btn more">A4</button>
                         </div>
                         <div class="">
-                            <button class="btn">B3</button>
-                            <button class="btn">B4</button>
+                            <button id="B3"  class="btn more">B3</button>
+                            <button id="B4"  class="btn more">B4</button>
                         </div>
                         <div class="">
-                            <button class="btn ">C3</button>
-                            <button class="btn ">C4</button>
+                            <button  id="C3" class="btn more ">C3</button>
+                            <button  id="C4" class="btn more ">C4</button>
                         </div>
                         <div class="">
-                            <button class="btn ">D3</button>
-                            <button class="btn ">D4</button>
+                            <button  id="D3" class="btn more ">D3</button>
+                            <button  id="D4" class="btn more ">D4</button>
+                        </div>
+                        <div class="">
+                            <button id="E3" class="btn more ">E3</button>
+                            <button id="E4" class="btn more ">E4</button>
+                        </div>
+                        <div class="">
+                            <button id="F3" class="btn more ">F3</button>
+                            <button id="F4" class="btn more ">F4</button>
+                        </div>
+                        <div class="">
+                            <button id="G3" class="btn more ">G3</button>
+                            <button id="G4" class="btn more ">G4</button>
+                        </div>
+                        <div class="">
+                            <button id="H3" class="btn more ">H3</button>
+                            <button id="H4" class="btn more ">H4</button>
+                        </div>
+                        <div class="">
+                            <button id="I3" class="btn more ">I3</button>
+                            <button id="I4" class="btn more ">I4</button>
+                        </div>
+                        <div class="">
+                            <button id="J3" class="btn more ">J3</button>
+                            <button id="J4" class="btn more ">J4</button>
                         </div>
                     </div>
                 </div>
@@ -241,20 +282,23 @@
                     <h4 class="text-xl font-semibold py-4">Select Your Seat</h4>
                     <hr class="divide-dotted">
                 </div>
-                <div class="bg-[#F7F8F8] rounded-2xl">
-                    <div class="flex space-x-40 justify-between mt-6 p-4">
-                        <h6 class="text-sm font-medium">Seat</h6>
-                        <h6 class="text-sm font-medium">Class</h6>
-                        <h6 class="text-sm font-medium">Price</h6>
+                <div class="bg-[#F7F8F8] w-[500px] rounded-2xl">
+                    <div id="seatClassPrice" class="flex gap-44 mt-6 p-4">
+                        <h6 id="seat" class="text-sm font-medium  ">Seat</h6>
+                        <h6 id="class" class="text-sm font-medium ">Class</h6>
+                        <h6 id="price" class="text-sm font-medium ">Price</h6>
                         <hr>
                     </div>
                     <div class="">
-                        <div class=""></div>
-                        
+                        <div class="flex ">
+                            <ul class="" id="seat-class-price">
+                                
+                            </ul>
+                        </div>
                     </div>
                     <div class="flex justify-between p-4">
                         <h4>Total Price</h4>
-                        <h4>BDT 1100</h4>
+                        <h4>BDT <span id="totalprice"></span></h4>
                     </div>
                     <div class="p-4">
                         <label class="input input-bordered flex items-center">
@@ -273,7 +317,7 @@
                         <input type="number" required class="w-full p-4 rounded-xl mb-3" placeholder="Enter your phone number">
                         <h3 class="text-xl">Email Id:</h3> 
                         <input type="email"  class="w-full p-4 rounded-xl mb-2"placeholder="Enter your email">
-                        <button class="btn w-full bg-green-600 text-white mt-3">Next</button>
+                        <button class="btn w-full bg-green-600 text-xl text-white mt-3">Next</button>
                         <div class="flex w-2/3 m-auto justify-between mt-4 opacity-60">
                             <a href="#" class="underline">Terms and Conditions</a>
                             <a href="#" class="underline">Cancellation Policy</a>
@@ -318,6 +362,7 @@
             </div>
         </div>
     </footer>
+    <script src="script/script.js"></script>
 </body>
 
 </html>

@@ -6,3 +6,9 @@
 .font-inter{
     font-family: "Inter", sans-serif;
 }
+li{
+  display: flex;
+  gap: 176px;
+  padding: 4px;
+  padding-left: 4px;
+}
