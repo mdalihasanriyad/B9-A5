@@ -1,9 +1,12 @@
 const allBtn = document.getElementsByClassName("more");
 let count = 40;
+let added = 0;
 
 for (const btn of allBtn) {
   btn.addEventListener("click", function (e) {
     count = count - 1;
+    added = added +1;
+    
     const seat = e.target.innerText;
     const classs = "Economic";
     const price = 550;
@@ -25,6 +28,7 @@ for (const btn of allBtn) {
 
     totalCost("total-price", parseInt(price));
     updateGrandTotal();
+    setInnerText("seat-total", added);
     setInnerText("seat-count", count);
   })
 }

@@ -117,7 +117,7 @@
                         <p class="opacity-60">use by January 2024</p>
                     </div>
                     <img src="./images/cupon-devider.png" alt="">
-                    <div class="p-8">
+                    <div class="py-6 px-4">
                         <h2 class="text-2xl font-semibold">Couple 20</h2>
                         <p class="opacity-60">Coupon Code</p>
                     </div>
@@ -164,7 +164,6 @@
                     </div>
                 </div>
                 <div class="items-center justify-center pr-32 pt-40">
-                    <!-- <i class="fa-solid fa-bangladeshi-taka-sign bg-green-600  text-white rounded-full p-2 text-3xl"></i> -->
                     <img src="./images/fare.png" alt="">
                     <h3 class="text-3xl font-semibold">550 Taka</h3>
                     <p>Per Seat</p>
@@ -284,7 +283,7 @@
                 </div>
                 <div class="bg-[#F7F8F8] w-[500px] rounded-2xl">
                     <div id="seatClassPrice" class="flex gap-44 mt-6 p-4">
-                        <h6 id="seat" class="text-sm font-medium  ">Seat</h6>
+                        <h6 id="seat" class="text-sm font-medium flex ">Seat <span id="seat-total" class="text-sm bg-green-600 text-white">0</span></h6>
                         <h6 id="class" class="text-sm font-medium ">Class</h6>
                         <h6 id="price" class="text-sm font-medium ">Price</h6>
                         <hr>
@@ -312,9 +311,9 @@
                     </div>
                     <div  class="">
                         <h3 class="text-xl">Passenger Name:</h3> 
-                        <input type="text" required class="w-full p-4 rounded-xl mb-2 " placeholder="Enter your name"> 
+                        <input type="text"  class="w-full p-4 rounded-xl mb-2 " placeholder="Enter your name" required> 
                         <h3 class="text-xl">Phone Number:</h3> 
-                        <input type="number" required class="w-full p-4 rounded-xl mb-3" placeholder="Enter your phone number">
+                        <input type="number"  class="w-full p-4 rounded-xl mb-3" placeholder="Enter your phone number" required>
                         <h3 class="text-xl">Email Id:</h3> 
                         <input type="email"  class="w-full p-4 rounded-xl mb-2"placeholder="Enter your email">
                         <button id="nextBtn" class="btn w-full bg-green-600 text-xl text-white mt-3">Next</button>
@@ -325,8 +324,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-        
+        </div> 
     </main>
     <!-- section congrass -->
     <section id="section2" class=" justify-center items-center min-h-screen hidden ">
